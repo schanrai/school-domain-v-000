@@ -34,7 +34,7 @@ end
 def sort
  #sorted = {}
  roster.each do |key, values|
-    #sorted[key]=values.sort
+
     values.sort
     binding.pry
    end
