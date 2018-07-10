@@ -20,6 +20,7 @@ def grade(grade)
   roster[grade]
 end
 
+=begin
  def sort
   #sorted = {}
   roster.each do |key, values|
@@ -28,5 +29,17 @@ end
     end
    roster
   end
+=end
+
+def sort
+ #sorted = {}
+ roster.each do |key, values|
+    #sorted[key]=values.sort
+    values + "1"
+   end
+  roster
+ end
+
+
 
 end
