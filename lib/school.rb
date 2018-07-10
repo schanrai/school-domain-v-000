@@ -35,7 +35,7 @@ def sort
  #sorted = {}
  roster.each do |key, values|
     #sorted[key]=values.sort
-    values.upcase
+    values.swapcase
     binding.pry
    end
   roster
