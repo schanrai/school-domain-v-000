@@ -36,6 +36,7 @@ def sort
  roster.each do |key, values|
     #sorted[key]=values.sort
     values + "1"
+  binding.pry
    end
   roster
  end
